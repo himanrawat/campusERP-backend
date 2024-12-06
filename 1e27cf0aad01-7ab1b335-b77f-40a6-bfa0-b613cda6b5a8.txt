@@ -1,0 +1,10 @@
+2024-12-05T17:05:19  Fetching changes.
+2024-12-05T17:05:19    Cleaning up temp folders from previous zip deployments and extracting pushed zip file /tmp/zipdeploy/e6520ffc-2411-4b20-a210-4c6843c48a51.zip (0.09 MB) to /tmp/zipdeploy/extracted
+2024-12-05T17:05:23  Updating submodules.
+2024-12-05T17:05:23  Preparing deployment for commit id '4a15da6e-f'.
+2024-12-05T17:05:23  PreDeployment: context.CleanOutputPath False
+2024-12-05T17:05:23  PreDeployment: context.OutputPath /home/site/wwwroot
+2024-12-05T17:05:23  Running build. Project type: OneDeploy
+2024-12-05T17:05:23  Copying the manifest
+2024-12-05T17:05:23  Incrementally deploying to /home/site/wwwroot
+2024-12-05T17:05:24  Deployment Failed. deployer = OneDeploy deploymentPath = OneDeploy
