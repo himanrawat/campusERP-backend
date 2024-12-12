@@ -59,20 +59,20 @@ export const sendOtp = async (
 			},
 		});
 
-		try {
-			const transporter = nodemailer.createTransport(config);
+		// try {
+		// 	const transporter = nodemailer.createTransport(config);
 
-			const message = {
-				from: process.env.EMAIL,
-				to: email,
-				subject: "Verification Email",
-				html: generateEmailTemplate(OTP),
-			};
+		// 	const message = {
+		// 		from: process.env.EMAIL,
+		// 		to: email,
+		// 		subject: "Verification Email",
+		// 		html: generateEmailTemplate(OTP),
+		// 	};
 
-			await transporter.sendMail(message);
-		} catch (error) {
-			console.log("err sending email");
-		}
+		// 	await transporter.sendMail(message);
+		// } catch (error) {
+		// 	console.log("err sending email");
+		// }
 
 		return { success: true, message: "Verification email has been sent." };
 	} catch (error) {
